@@ -1,4 +1,4 @@
-public class SenhaInvalidaException extends Throwable {
+public class SenhaInvalidaException extends RuntimeException {
     String mensagem;
 
     public SenhaInvalidaException(String mensagem) {
